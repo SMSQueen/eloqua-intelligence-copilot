@@ -11,14 +11,30 @@ import numpy as np
 from pathlib import Path
 from datetime import date, timedelta
 import io
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
-from reportlab.lib.styles import getSampleStyleSheet
-from reportlab.lib.pagesizes import LETTER
-from pptx import Presentation
-from pptx.util import Inches, Pt
-from pptx.dml.color import RGBColor
-from pptx.enum.text import PP_ALIGN
+import matplotlib
+matplotlib.use("Agg")  # safe for Streamlit servers
 import matplotlib.pyplot as plt
+
+# Optional deps: reportlab (PDF) and python-pptx (PPTX)
+HAS_REPORTLAB = True
+try:
+    from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
+    from reportlab.lib.styles import getSampleStyleSheet
+    from reportlab.lib.pagesizes import LETTER
+except Exception as e:
+    HAS_REPORTLAB = False
+    REPORTLAB_IMPORT_ERROR = e  # for debugging/logging if needed
+
+HAS_PPTX = True
+try:
+    from pptx import Presentation
+    from pptx.util import Inches, Pt
+    from pptx.dml.color import RGBColor
+    from pptx.enum.text import PP_ALIGN
+except Exception as e:
+    HAS_PPTX = False
+    PPTX_IMPORT_ERROR = e  # for debugging/logging if needed
+
 
 st.set_page_config(page_title="Eloqua Intelligence Copilot", page_icon="📊", layout="wide")
 
