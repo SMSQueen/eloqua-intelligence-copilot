@@ -5,25 +5,16 @@ This starter kit includes synthetic Eloqua-like data, a minimal FastAPI service,
 
 ## 📂 Project Structure
 ```
-eloqua_intel_copilot/
+eloqua-intelligence-copilot/
+├── ui/
+│   └── app.py   
 ├── ingest/
 │   └── example_data/
 │       ├── emails_by_segment_daily.csv
-│       ├── segment_engagement_windows.csv
-│       └── journey_nodes_daily.csv
-├── models/
-│   └── sql/
-│       ├── rolling_14d.sql
-│       └── flag_oversaturation.sql
-├── prompts/
-│   └── exec_brief_prompt.txt
-├── reports/
-│   └── weekly_brief.md
-├── service/
-│   └── api/
-│       └── main.py
-└── ui/
-    └── app.py
+│       └── segment_engagement_windows.csv
+├── requirements.txt
+└── README.md
+
 ```
 
 ## 🚀 How to run the dashboard
