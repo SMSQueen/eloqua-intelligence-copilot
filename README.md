@@ -6,7 +6,7 @@ This starter kit includes synthetic Eloqua-like data, a minimal FastAPI service,
 ## 📂 Project Structure
 ```
 eloqua-intelligence-copilot/
-├── ui/
+├── /
 │   └── app.py
 ├── requirements.txt
 ├── .streamlit/
