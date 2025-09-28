@@ -7,7 +7,10 @@ This starter kit includes synthetic Eloqua-like data, a minimal FastAPI service,
 ```
 eloqua-intelligence-copilot/
 ├── ui/
-│   └── app.py   
+│   └── app.py
+├── requirements.txt
+├── .streamlit/
+│   └── config.toml 
 ├── ingest/
 │   └── example_data/
 │       ├── emails_by_segment_daily.csv
