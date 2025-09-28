@@ -1,0 +1,85 @@
+date,segment_id,segment_name,sends,opens,clicks,bounces,unsubs,spam_complaints,unique_contacts_reached
+2025-09-01,CORP,Corporate HQ,888,312,35,2,1,0,807
+2025-09-01,MPE,Owner Relations – East,2338,700,71,10,3,0,2126
+2025-09-01,MPW,Owner Relations – West,1664,482,38,7,2,0,1530
+2025-09-02,CORP,Corporate HQ,1071,384,39,3,1,0,986
+2025-09-02,MPE,Owner Relations – East,2509,808,75,9,4,0,1975
+2025-09-02,MPW,Owner Relations – West,2039,600,65,7,2,0,1753
+2025-09-03,CORP,Corporate HQ,956,338,36,4,0,0,837
+2025-09-03,MPE,Owner Relations – East,2415,761,67,9,4,0,2163
+2025-09-03,MPW,Owner Relations – West,2012,597,52,8,3,0,1836
+2025-09-04,CORP,Corporate HQ,1039,369,41,3,1,0,839
+2025-09-04,MPE,Owner Relations – East,2575,802,80,11,5,0,2199
+2025-09-04,MPW,Owner Relations – West,2103,605,45,7,2,0,1745
+2025-09-05,CORP,Corporate HQ,759,265,30,2,0,0,692
+2025-09-05,MPE,Owner Relations – East,2210,676,56,9,3,0,1781
+2025-09-05,MPW,Owner Relations – West,1774,526,45,6,2,0,1410
+2025-09-06,CORP,Corporate HQ,541,203,21,1,0,0,467
+2025-09-06,MPE,Owner Relations – East,1581,475,44,5,2,0,1287
+2025-09-06,MPW,Owner Relations – West,1142,333,27,3,1,0,974
+2025-09-07,CORP,Corporate HQ,683,265,30,2,0,0,571
+2025-09-07,MPE,Owner Relations – East,1600,501,54,5,2,0,1406
+2025-09-07,MPW,Owner Relations – West,881,261,22,2,1,0,699
+2025-09-08,CORP,Corporate HQ,769,269,27,3,0,0,641
+2025-09-08,MPE,Owner Relations – East,2200,668,62,9,4,0,1923
+2025-09-08,MPW,Owner Relations – West,1468,418,36,7,2,0,1373
+2025-09-09,CORP,Corporate HQ,1084,392,41,4,1,0,893
+2025-09-09,MPE,Owner Relations – East,2818,884,82,11,4,0,2219
+2025-09-09,MPW,Owner Relations – West,1803,499,44,8,2,0,1565
+2025-09-10,CORP,Corporate HQ,1091,393,45,2,1,0,958
+2025-09-10,MPE,Owner Relations – East,2404,712,79,11,4,0,2120
+2025-09-10,MPW,Owner Relations – West,1820,511,48,6,2,0,1423
+2025-09-11,CORP,Corporate HQ,1002,349,38,3,1,0,940
+2025-09-11,MPE,Owner Relations – East,2471,757,78,8,4,0,2053
+2025-09-11,MPW,Owner Relations – West,2124,627,63,8,2,0,1857
+2025-09-12,CORP,Corporate HQ,749,285,27,2,1,0,592
+2025-09-12,MPE,Owner Relations – East,2224,656,58,9,5,0,2035
+2025-09-12,MPW,Owner Relations – West,1400,403,31,5,1,0,1298
+2025-09-13,CORP,Corporate HQ,573,212,23,2,0,0,529
+2025-09-13,MPE,Owner Relations – East,1369,429,48,4,2,0,1106
+2025-09-13,MPW,Owner Relations – West,1025,295,21,3,1,0,808
+2025-09-14,CORP,Corporate HQ,572,199,20,2,0,0,459
+2025-09-14,MPE,Owner Relations – East,1500,463,53,7,3,0,1265
+2025-09-14,MPW,Owner Relations – West,1117,311,31,4,1,0,1031
+2025-09-15,CORP,Corporate HQ,850,297,31,3,1,0,710
+2025-09-15,MPE,Owner Relations – East,2231,695,76,6,4,0,1841
+2025-09-15,MPW,Owner Relations – West,1656,451,41,8,1,0,1383
+2025-09-16,CORP,Corporate HQ,1042,358,39,3,1,0,951
+2025-09-16,MPE,Owner Relations – East,2724,891,88,12,4,0,2258
+2025-09-16,MPW,Owner Relations – West,2122,590,56,8,3,0,1916
+2025-09-17,CORP,Corporate HQ,947,346,32,4,1,0,863
+2025-09-17,MPE,Owner Relations – East,2505,751,71,8,4,0,2194
+2025-09-17,MPW,Owner Relations – West,2067,552,50,8,3,0,1822
+2025-09-18,CORP,Corporate HQ,930,336,39,3,1,0,875
+2025-09-18,MPE,Owner Relations – East,3495,1034,88,14,6,0,2912
+2025-09-18,MPW,Owner Relations – West,1958,575,56,6,2,0,1711
+2025-09-19,CORP,Corporate HQ,874,302,26,3,0,0,697
+2025-09-19,MPE,Owner Relations – East,2982,919,74,8,7,0,2332
+2025-09-19,MPW,Owner Relations – West,1898,520,39,6,2,0,1776
+2025-09-20,CORP,Corporate HQ,446,153,13,1,0,0,406
+2025-09-20,MPE,Owner Relations – East,1832,536,46,7,3,0,1670
+2025-09-20,MPW,Owner Relations – West,1198,342,31,4,1,0,1057
+2025-09-21,CORP,Corporate HQ,465,169,18,1,0,0,377
+2025-09-21,MPE,Owner Relations – East,2061,615,50,9,3,0,1661
+2025-09-21,MPW,Owner Relations – West,866,243,20,3,1,0,683
+2025-09-22,CORP,Corporate HQ,880,333,43,3,1,0,750
+2025-09-22,MPE,Owner Relations – East,2592,722,63,10,5,0,2438
+2025-09-22,MPW,Owner Relations – West,1660,456,44,6,3,0,1438
+2025-09-23,CORP,Corporate HQ,969,350,40,3,1,0,858
+2025-09-23,MPE,Owner Relations – East,3378,962,83,12,4,0,2816
+2025-09-23,MPW,Owner Relations – West,1913,549,58,8,2,0,1720
+2025-09-24,CORP,Corporate HQ,1022,364,43,2,1,0,945
+2025-09-24,MPE,Owner Relations – East,3922,1127,110,15,8,0,3406
+2025-09-24,MPW,Owner Relations – West,1867,549,43,8,3,0,1545
+2025-09-25,CORP,Corporate HQ,1046,380,44,3,1,0,914
+2025-09-25,MPE,Owner Relations – East,3626,1066,81,11,3,0,3441
+2025-09-25,MPW,Owner Relations – West,2042,580,53,6,2,0,1596
+2025-09-26,CORP,Corporate HQ,900,319,38,2,0,0,831
+2025-09-26,MPE,Owner Relations – East,2636,786,64,12,4,1,2394
+2025-09-26,MPW,Owner Relations – West,1747,533,44,6,2,0,1431
+2025-09-27,CORP,Corporate HQ,485,169,16,1,0,0,430
+2025-09-27,MPE,Owner Relations – East,1858,526,42,7,3,0,1619
+2025-09-27,MPW,Owner Relations – West,1175,345,32,4,2,0,1098
+2025-09-28,CORP,Corporate HQ,629,224,25,1,0,0,583
+2025-09-28,MPE,Owner Relations – East,1616,475,43,6,2,0,1344
+2025-09-28,MPW,Owner Relations – West,871,251,22,3,1,0,771

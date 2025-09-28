@@ -1,2 +1,51 @@
-# eloqua-intelligence-copilot
-an AI-powered Executive Insights Agent for Oracle Eloqua that automatically analyzes campaign performance, detects fatigue, and generates C-suite ready briefs
+
+# Eloqua Intelligence Copilot — Starter Kit
+
+This starter kit includes synthetic Eloqua-like data, a minimal FastAPI service, a Streamlit dashboard, and SQL models for computing rolling engagement and fatigue flags.
+
+## 📂 Project Structure
+```
+eloqua_intel_copilot/
+├── ingest/
+│   └── example_data/
+│       ├── emails_by_segment_daily.csv
+│       ├── segment_engagement_windows.csv
+│       └── journey_nodes_daily.csv
+├── models/
+│   └── sql/
+│       ├── rolling_14d.sql
+│       └── flag_oversaturation.sql
+├── prompts/
+│   └── exec_brief_prompt.txt
+├── reports/
+│   └── weekly_brief.md
+├── service/
+│   └── api/
+│       └── main.py
+└── ui/
+    └── app.py
+```
+
+## 🚀 How to run the dashboard
+1. Install dependencies:
+   ```bash
+   pip install streamlit fastapi uvicorn pandas numpy
+   ```
+2. Run the Streamlit app:
+   ```bash
+   streamlit run ui/app.py
+   ```
+3. (Optional) Run the FastAPI service:
+   ```bash
+   uvicorn service.api.main:app --reload
+   ```
+
+## 📊 Data Notes
+- Data is synthetic, spanning 2025-09-01 to 2025-09-28 across three segments.
+- The "Owner Relations – East" segment includes intentional oversaturation in the last 10 days to demonstrate fatigue flags.
+
+## ✅ Next Steps
+- Replace `ingest/example_data/*.csv` with real Eloqua extracts (Bulk API 2.0).
+- Wire the API endpoints into Slack/Teams for automated briefs and fatigue alerts.
+- Convert SQL to dbt models if you use a warehouse.
+- Add PDF export of the executive brief for sharing with leadership.
