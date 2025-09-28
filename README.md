@@ -38,8 +38,5 @@ eloqua-intelligence-copilot/
 - Data is synthetic, spanning 2025-09-01 to 2025-09-28 across three segments.
 - The "Owner Relations – East" segment includes intentional oversaturation in the last 10 days to demonstrate fatigue flags.
 
-## ✅ Next Steps
-- Replace `ingest/example_data/*.csv` with real Eloqua extracts (Bulk API 2.0).
-- Wire the API endpoints into Slack/Teams for automated briefs and fatigue alerts.
-- Convert SQL to dbt models if you use a warehouse.
+o dbt models if you use a warehouse.
 - Add PDF export of the executive brief for sharing with leadership.
